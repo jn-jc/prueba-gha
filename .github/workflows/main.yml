@@ -14,5 +14,8 @@ jobs:
     - name: Install dependencies
       run: pnpm install
 
+    - name: Saludo
+      run: echo Hola, mundo!
+
     - name: Run self-hosted API
-      run: npm start
+      run: npm run dev
